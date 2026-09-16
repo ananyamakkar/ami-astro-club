@@ -800,10 +800,6 @@ footer {
 
 @media (max-width: 450px) {
 
-    .home-link {
-        font-size: 1.15rem;
-    }
-
     .hero-description {
         font-size: 0.8rem;
     }
