@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encyclopaedia | AMI Astro Club</title>
+
+    <link rel="stylesheet" href="encyclopaedia.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="home-link">
+            <span>⌂</span> Home
+        </a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="committee.html">Team</a>
+             <a href="events.html">Events</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="encyclopaedia-hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    THE COSMIC<br>
+                    <span>ENCYCLOPAEDIA.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A growing collection of astronomical objects, concepts and
+                    phenomena. Search, explore and learn about the universe
+                    one cosmic object at a time.
+                </p>
+
+            </div>
+
+           
+             <div class="hero-image">
+                <img src="book1.png" alt="Animated astronomical view of space">
+            </div>
+
+        </section>
+
+
+        <section class="encyclopaedia-section">
+
+            <div class="database-header">
+
+                <div>
+                    <h2>WHAT ARE YOU CURIOUS ABOUT?</h2>
+                </div>
+
+            </div>
+
+
+            <div class="search-area">
+
+                <div class="search-box">
+
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="SEARCH THE COSMOS..."
+                        aria-label="Search the encyclopaedia">
+
+                </div>
+
+            </div>
+
+
+            <div class="filter-bar">
+
+                <button class="filter-button active" data-filter="all">
+                    ALL
+                </button>
+
+                <button class="filter-button" data-filter="stars">
+                    STARS
+                </button>
+
+                <button class="filter-button" data-filter="planets">
+                    PLANETS
+                </button>
+
+                <button class="filter-button" data-filter="galaxies">
+                    GALAXIES
+                </button>
+
+                <button class="filter-button" data-filter="phenomena">
+                    PHENOMENA
+                </button>
+
+            </div>
+
+
+            <div class="entry-count" id="entryCount">
+                06 ENTRIES FOUND
+            </div>
+
+
+            <div class="encyclopaedia-grid">
+
+
+                <a href="entries/sun.html"
+                   class="knowledge-card"
+                   data-category="stars"
+                   data-name="sun">
+
+                    <div class="knowledge-image">
+
+                        <img
+                            src="https://placehold.co/800x500/171127/a66cff?text=THE+SUN"
+                            alt="The Sun placeholder">
+
+                        <span class="object-type">
+                            STAR
+                        </span>
+
+                    </div>
+
+                    <div class="knowledge-content">
+
+                        <span class="entry-number">
+                            ENTRY 001
+                        </span>
+
+                        <h3>THE SUN</h3>
+
+                        <p>
+                            The star at the center of our solar system and
+                            the primary source of energy for life on Earth.
+                        </p>
+
+                        <span class="read-link">
+                            READ ENTRY →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="entries/earth.html"
+                   class="knowledge-card"
+                   data-category="planets"
+                   data-name="earth">
+
+                    <div class="knowledge-image">
+
+                        <img
+                            src="https://placehold.co/800x500/171127/a66cff?text=EARTH"
+                            alt="Earth placeholder">
+
+                        <span class="object-type">
+                            PLANET
+                        </span>
+
+                    </div>
+
+                    <div class="knowledge-content">
+
+                        <span class="entry-number">
+                            ENTRY 002
+                        </span>
+
+                        <h3>EARTH</h3>
+
+                        <p>
+                            Our home planet, the only known world to support
+                            life and a dynamic system of oceans, atmosphere
+                            and geology.
+                        </p>
+
+                        <span class="read-link">
+                            READ ENTRY →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="entries/andromeda.html"
+                   class="knowledge-card"
+                   data-category="galaxies"
+                   data-name="andromeda">
+
+                    <div class="knowledge-image">
+
+                        <img
+                            src="https://placehold.co/800x500/171127/a66cff?text=ANDROMEDA"
+                            alt="Andromeda Galaxy placeholder">
+
+                        <span class="object-type">
+                            GALAXY
+                        </span>
+
+                    </div>
+
+                    <div class="knowledge-content">
+
+                        <span class="entry-number">
+                            ENTRY 003
+                        </span>
+
+                        <h3>ANDROMEDA</h3>
+
+                        <p>
+                            A massive spiral galaxy and one of the closest
+                            major galaxies to the Milky Way.
+                        </p>
+
+                        <span class="read-link">
+                            READ ENTRY →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="entries/neutron-star.html"
+                   class="knowledge-card"
+                   data-category="stars"
+                   data-name="neutron star">
+
+                    <div class="knowledge-image">
+
+                        <img
+                            src="https://placehold.co/800x500/171127/a66cff?text=NEUTRON+STAR"
+                            alt="Neutron star placeholder">
+
+                        <span class="object-type">
+                            STAR
+                        </span>
+
+                    </div>
+
+                    <div class="knowledge-content">
+
+                        <span class="entry-number">
+                            ENTRY 004
+                        </span>
+
+                        <h3>NEUTRON STAR</h3>
+
+                        <p>
+                            An incredibly dense stellar remnant formed after
+                            the collapse of a massive star.
+                        </p>
+
+                        <span class="read-link">
+                            READ ENTRY →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="entries/black-hole.html"
+                   class="knowledge-card"
+                   data-category="phenomena"
+                   data-name="black hole">
+
+                    <div class="knowledge-image">
+
+                        <img
+                            src="https://placehold.co/800x500/171127/a66cff?text=BLACK+HOLE"
+                            alt="Black hole placeholder">
+
+                        <span class="object-type">
+                            PHENOMENA
+                        </span>
+
+                    </div>
+
+                    <div class="knowledge-content">
+
+                        <span class="entry-number">
+                            ENTRY 005
+                        </span>
+
+                        <h3>BLACK HOLE</h3>
+
+                        <p>
+                            A region of spacetime where gravity is so strong
+                            that nothing, including light, can escape.
+                        </p>
+
+                        <span class="read-link">
+                            READ ENTRY →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="entries/supernova.html"
+                   class="knowledge-card"
+                   data-category="phenomena"
+                   data-name="supernova">
+
+                    <div class="knowledge-image">
+
+                        <img
+                            src="https://placehold.co/800x500/171127/a66cff?text=SUPERNOVA"
+                            alt="Supernova placeholder">
+
+                        <span class="object-type">
+                            PHENOMENA
+                        </span>
+
+                    </div>
+
+                    <div class="knowledge-content">
+
+                        <span class="entry-number">
+                            ENTRY 006
+                        </span>
+
+                        <h3>SUPERNOVA</h3>
+
+                        <p>
+                            A powerful stellar explosion that can briefly
+                            outshine an entire galaxy.
+                        </p>
+
+                        <span class="read-link">
+                            READ ENTRY →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+
+            <div class="no-results" id="noResults">
+
+                <span>✦</span>
+
+                <h3>NO COSMIC OBJECT FOUND.</h3>
+
+                <p>
+                    Try another search or choose a different category.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p class="copyright">
+            © 2026 AMI Astro Club
+        </p>
+
+    </footer>
+
+
+    <script src="encyclopaedia.js"></script>
+
+</body>
+
+</html>

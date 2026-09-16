@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | AMI Astro Club</title>
+
+    <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="home-link">
+            <span>⌂</span> Home
+        </a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="committee.html">Team</a>
+            <a href="events.html">Events</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="gallery-hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    THE <span>ARCHIVE.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A collection of moments from the AMI Astro Club, kept
+                    to remember our experiences here. Some of the beautiful
+                    phenomena of the sky captured by members of the club
+                    is here, along with photographs from events and
+                    workshops.
+                </p>
+
+                <div class="hero-visual hero-visual--inline">
+
+                    <div class="hero-visual-frame">
+                        <div class="hero-visual-starfield"></div>
+                        <span class="hero-visual-icon"></span>
+                    </div>
+
+                    <div class="hero-visual-caption">
+                        <span class="caption-label">[CAPTION]</span>
+                        <p>[Placeholder caption text goes here.]</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual hero-visual--side">
+
+                <div class="hero-visual-frame">
+                    <div class="hero-visual-starfield"></div>
+                    <span class="hero-visual-icon"></span>
+                </div>
+
+                <div class="hero-visual-caption">
+                    <span class="caption-label">[CAPTION]</span>
+                    <p>[Placeholder caption text goes here.]</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div class="section-divider">
+            <span class="divider-rule"></span>
+        
+        </div>
+
+
+        <section class="gallery-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    EXPLORE THE ARCHIVE.
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-filters">
+
+                <button class="filter-button active" data-filter="all">
+                    ALL
+                </button>
+
+                <button class="filter-button" data-filter="events">
+                    EVENTS
+                </button>
+
+                <button class="filter-button" data-filter="observations">
+                    OBSERVATIONS
+                </button>
+
+                <button class="filter-button" data-filter="workshops">
+                    WORKSHOPS
+                </button>
+
+                <button class="filter-button" data-filter="club-life">
+                    OTHER
+                </button>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <a href="gallery-details.html?id=stargazing-night"
+                   class="gallery-item"
+                   data-category="events">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>✦</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=night-sky"
+                   class="gallery-item"
+                   data-category="observations">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>◉</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=astronomy-workshop"
+                   class="gallery-item"
+                   data-category="workshops">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>▣</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=astro-club"
+                   class="gallery-item"
+                   data-category="club-life">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>✦</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=cosmic-evening"
+                   class="gallery-item"
+                   data-category="events">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>☽</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=telescope-session"
+                   class="gallery-item"
+                   data-category="observations">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>◎</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=learning-cosmos"
+                   class="gallery-item"
+                   data-category="workshops">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>⌁</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=beyond-classroom"
+                   class="gallery-item"
+                   data-category="club-life">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>★</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+                <a href="gallery-details.html?id=astronomy-meet"
+                   class="gallery-item"
+                   data-category="events">
+
+                    <div class="gallery-image placeholder-image">
+                        <div class="placeholder-content">
+                            <span>✧</span>
+                            <p>[TAG]</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <span class="gallery-category">[IMAGE CATEGORY]</span>
+                        <h3>[IMAGE NAME]</h3>
+                        <p>[IMAGE DESCRIPTION]</p>
+                        <span class="view-details">[VIEW DETAILS]</span>
+                    </div>
+
+                </a>
+
+            </div>
+
+
+            <div class="gallery-count">
+                <span id="galleryCount">9</span>
+                <span>ARCHIVED MOMENTS</span>
+            </div>
+
+        </section>
+
+
+        <div class="section-divider">
+            <span class="divider-rule"></span>
+            <span class="divider-star">★</span>
+            <span class="divider-rule"></span>
+        </div>
+
+
+        <section class="closing-section">
+
+            <p class="closing-small">
+                END OF ARCHIVE
+            </p>
+
+            <p>
+                Every observation, event and shared moment becomes
+                part of our journey through the universe.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p class="copyright">
+            © 2026 AMI Astro Club
+        </p>
+    </footer>
+
+
+    <script src="gallery.js"></script>
+
+</body>
+
+</html>

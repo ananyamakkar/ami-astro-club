@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sky Guide | AMI Astro Club</title>
+
+    <link rel="stylesheet" href="sky-guide.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="home-link">
+            <span>⌂</span> Home
+        </a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="committee.html">Team</a>
+            <a href="events.html">Events</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact </a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="sky-hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    A GUIDE TO<br>
+                    <span>THE COSMOS</span>
+                </h1>
+
+                <p class="hero-description">
+                    Your guide to the night sky. Discover what to observe,
+                    when to look and which cosmic events are worth waiting for
+                    throughout the year.
+                </p>
+
+            </div>
+
+            <div class="hero-side">
+
+                <span class="hero-side-label">
+                    ★ CLUB AT A GLANCE
+                </span>
+
+                <div class="hero-stat">
+                    <strong>40+</strong>
+                    <span>ACTIVE MEMBERS</span>
+                </div>
+
+                <div class="hero-stat">
+                    <strong>Weekly</strong>
+                    <span>STARGAZING NIGHTS</span>
+                </div>
+
+                <div class="hero-stat">
+                    <strong>2026</strong>
+                    <span>FULL COSMIC CALENDAR</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="sky-guide-section">
+
+            <div class="section-heading">
+
+                <h2>
+                    WHAT SHOULD I LOOK FOR?
+                </h2>
+
+                <p>
+                    Choose a month to explore its major observing highlights.
+                </p>
+
+            </div>
+
+            <div class="month-selector">
+
+                <button class="month-button active" data-month="january">
+                    JAN
+                </button>
+
+                <button class="month-button" data-month="february">
+                    FEB
+                </button>
+
+                <button class="month-button" data-month="march">
+                    MAR
+                </button>
+
+                <button class="month-button" data-month="april">
+                    APR
+                </button>
+
+                <button class="month-button" data-month="may">
+                    MAY
+                </button>
+
+                <button class="month-button" data-month="june">
+                    JUN
+                </button>
+
+                <button class="month-button" data-month="july">
+                    JUL
+                </button>
+
+                <button class="month-button" data-month="august">
+                    AUG
+                </button>
+
+                <button class="month-button" data-month="september">
+                    SEP
+                </button>
+
+                <button class="month-button" data-month="october">
+                    OCT
+                </button>
+
+                <button class="month-button" data-month="november">
+                    NOV
+                </button>
+
+                <button class="month-button" data-month="december">
+                    DEC
+                </button>
+
+            </div>
+
+            <div class="month-display">
+
+                <div class="month-heading">
+
+                    <div>
+                        <h2 id="monthTitle">
+                            JANUARY 2026
+                        </h2>
+                    </div>
+
+                </div>
+
+                <div class="sky-grid">
+
+                    <article class="sky-card">
+
+                        <div class="sky-card-icon">
+                            ◐
+                        </div>
+
+                        <span class="sky-card-label">
+                            MOON
+                        </span>
+
+                        <h3 id="moonTitle">
+                            MOON HIGHLIGHTS
+                        </h3>
+
+                        <p id="moonText">
+                            Watch the Moon move through its phases and use
+                            its changing position as an easy guide for
+                            learning the night sky.
+                        </p>
+
+                    </article>
+
+                    <article class="sky-card">
+
+                        <div class="sky-card-icon">
+                            ◉
+                        </div>
+
+                        <span class="sky-card-label">
+                            PLANETS
+                        </span>
+
+                        <h3 id="planetTitle">
+                            PLANET WATCH
+                        </h3>
+
+                        <p id="planetText">
+                            Look for bright planets low above the horizon
+                            during suitable evening or morning observing
+                            windows.
+                        </p>
+
+                    </article>
+
+                    <article class="sky-card">
+
+                        <div class="sky-card-icon">
+                            ✦
+                        </div>
+
+                        <span class="sky-card-label">
+                            CONSTELLATIONS
+                        </span>
+
+                        <h3 id="constellationTitle">
+                            CONSTELLATION SPOTLIGHT
+                        </h3>
+
+                        <p id="constellationText">
+                            Start with bright, recognizable constellations
+                            and use them as signposts to find other objects.
+                        </p>
+
+                    </article>
+
+                    <article class="sky-card">
+
+                        <div class="sky-card-icon">
+                            ◎
+                        </div>
+
+                        <span class="sky-card-label">
+                            DEEP SKY
+                        </span>
+
+                        <h3 id="deepSkyTitle">
+                            DEEP-SKY TARGET
+                        </h3>
+
+                        <p id="deepSkyText">
+                            Try finding a bright cluster, nebula or galaxy
+                            with binoculars or a telescope.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="calendar-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    2026 COSMIC CALENDAR
+                </p>
+
+                <h2>
+                    MARK THE SKY.
+                </h2>
+
+                <p>
+                    Important astronomical events worth putting on your calendar.
+                </p>
+
+            </div>
+
+            <div class="calendar-filters">
+
+                <button class="calendar-filter active"
+                        data-filter="all">
+                    ALL EVENTS
+                </button>
+
+                <button class="calendar-filter"
+                        data-filter="moon">
+                    MOON
+                </button>
+
+                <button class="calendar-filter"
+                        data-filter="meteor">
+                    METEOR SHOWERS
+                </button>
+
+                <button class="calendar-filter"
+                        data-filter="eclipse">
+                    ECLIPSES
+                </button>
+
+                <button class="calendar-filter"
+                        data-filter="planet">
+                    PLANETS
+                </button>
+
+                <button class="calendar-filter"
+                        data-filter="season">
+                    SEASONS
+                </button>
+
+            </div>
+
+            <div class="calendar-list">
+
+                <article class="calendar-event"
+                         data-type="moon">
+
+                    <div class="event-date">
+                        <strong>03</strong>
+                        <span>JAN</span>
+                    </div>
+
+                    <div class="event-icon">
+                        ◐
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            MOON
+                        </span>
+
+                        <h3>
+                            FULL MOON
+                        </h3>
+
+                        <p>
+                            A bright full Moon illuminates the night sky.
+                            A good opportunity for lunar observation.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="calendar-event"
+                         data-type="eclipse">
+
+                    <div class="event-date">
+                        <strong>17</strong>
+                        <span>FEB</span>
+                    </div>
+
+                    <div class="event-icon">
+                        ◑
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            ECLIPSE
+                        </span>
+
+                        <h3>
+                            ANNULAR SOLAR ECLIPSE
+                        </h3>
+
+                        <p>
+                            The Moon passes in front of the Sun, producing
+                            an annular eclipse along its visible path.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="calendar-event"
+                         data-type="meteor">
+
+                    <div class="event-date">
+                        <strong>22</strong>
+                        <span>APR</span>
+                    </div>
+
+                    <div class="event-icon">
+                        ✦
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            METEOR SHOWER
+                        </span>
+
+                        <h3>
+                            LYRID METEOR SHOWER
+                        </h3>
+
+                        <p>
+                            One of the annual meteor showers to watch during
+                            April, with the best viewing away from bright lights.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="calendar-event"
+                         data-type="season">
+
+                    <div class="event-date">
+                        <strong>21</strong>
+                        <span>JUN</span>
+                    </div>
+
+                    <div class="event-icon">
+                            ☀
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            SEASON
+                        </span>
+
+                        <h3>
+                            JUNE SOLSTICE
+                        </h3>
+
+                        <p>
+                            The June solstice marks an important point in
+                            Earth's yearly journey around the Sun.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="calendar-event"
+                         data-type="meteor">
+
+                    <div class="event-date">
+                        <strong>12</strong>
+                        <span>AUG</span>
+                    </div>
+
+                    <div class="event-icon">
+                        ✦
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            METEOR SHOWER
+                        </span>
+
+                        <h3>
+                            PERSEID METEOR SHOWER
+                        </h3>
+
+                        <p>
+                            A famous annual meteor shower and one of the
+                            most anticipated observing events of the year.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="calendar-event"
+                         data-type="eclipse">
+
+                    <div class="event-date">
+                        <strong>12</strong>
+                        <span>AUG</span>
+                    </div>
+
+                    <div class="event-icon">
+                        ◑
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            ECLIPSE
+                        </span>
+
+                        <h3>
+                            TOTAL SOLAR ECLIPSE
+                        </h3>
+
+                        <p>
+                            A major solar eclipse event of 2026. Visibility
+                            depends on location, so check local observing
+                            information before planning.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="calendar-event"
+                         data-type="season">
+
+                    <div class="event-date">
+                        <strong>23</strong>
+                        <span>SEP</span>
+                    </div>
+
+                    <div class="event-icon">
+                        ◇
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            SEASON
+                        </span>
+
+                        <h3>
+                            SEPTEMBER EQUINOX
+                        </h3>
+
+                        <p>
+                            Day and night are approximately equal around
+                            the world as the Sun crosses the celestial equator.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="calendar-event"
+                         data-type="meteor">
+
+                    <div class="event-date">
+                        <strong>14</strong>
+                        <span>DEC</span>
+                    </div>
+
+                    <div class="event-icon">
+                        ✦
+                    </div>
+
+                    <div class="event-info">
+
+                        <span class="event-type">
+                            METEOR SHOWER
+                        </span>
+
+                        <h3>
+                            GEMINID METEOR SHOWER
+                        </h3>
+
+                        <p>
+                            A reliable annual meteor shower and one of the
+                            best-known events for December skywatchers.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="calendar-note">
+
+                <span>✦</span>
+
+                <p>
+                    Event visibility varies by location, local weather,
+                    horizon and light pollution. Always check observing
+                    conditions before heading outside.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="observing-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    BEGINNER OBSERVER
+                </p>
+
+                <h2>
+                    HOW TO START.
+                </h2>
+
+                <p>
+                    You don't need expensive equipment to begin exploring
+                    the night sky.
+                </p>
+
+            </div>
+
+            <div class="observing-grid">
+
+                <article class="observing-card">
+
+                    <div class="observing-card-header">
+                        <h3>FIND DARK SKIES</h3>
+                        <span class="observing-card-id">01</span>
+                    </div>
+
+                    <div class="observing-card-body">
+
+                        <p>
+                            Move away from strong city lights when possible.
+                            Even a small reduction in light pollution can reveal
+                            more stars.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="observing-card">
+
+                    <div class="observing-card-header">
+                        <h3>START WITH THE MOON</h3>
+                        <span class="observing-card-id">02</span>
+                    </div>
+
+                    <div class="observing-card-body">
+
+                        <p>
+                            The Moon is bright, easy to find and full of visible
+                            features that make it perfect for beginners.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="observing-card">
+
+                    <div class="observing-card-header">
+                        <h3>LEARN THE CONSTELLATIONS</h3>
+                        <span class="observing-card-id">03</span>
+                    </div>
+
+                    <div class="observing-card-body">
+
+                        <p>
+                            Learn a few recognizable patterns first. They become
+                            useful landmarks for finding other objects.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="observing-card">
+
+                    <div class="observing-card-header">
+                        <h3>GIVE YOUR EYES TIME</h3>
+                        <span class="observing-card-id">04</span>
+                    </div>
+
+                    <div class="observing-card-body">
+
+                        <p>
+                            Spend several minutes outside before judging how many
+                            stars you can see. Your eyes gradually adapt to darkness.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="closing">
+
+            <p class="closing-label">
+                THE SKY IS ALWAYS CHANGING.
+            </p>
+
+            <h2>
+                STEP OUTSIDE.<br>
+                <span>LOOK UP.</span>
+            </h2>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p class="copyright">
+            © 2026 AMI Astro Club
+        </p>
+
+    </footer>
+
+    <script src="sky-guide.js"></script>
+
+</body>
+
+</html>
