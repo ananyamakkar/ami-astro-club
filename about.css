@@ -830,6 +830,10 @@ footer {
         align-items: flex-start;
     }
 
+    .about-hero-content {
+        flex: 1 1 auto;
+    }
+
     .paint-window {
         width: min(85vw, 400px);
         align-self: center;
