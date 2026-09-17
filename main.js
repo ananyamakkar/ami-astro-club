@@ -66,7 +66,6 @@ const cosmicFacts = [
 
 const cosmicFact = document.getElementById("cosmicFact");
 const cosmicExplanation = document.getElementById("cosmicExplanation");
-const newFact = document.getElementById("newFact");
 
 let currentFact = -1;
 
@@ -85,8 +84,4 @@ function showRandomFact() {
 
 if (cosmicFact && cosmicExplanation) {
     showRandomFact();
-}
-
-if (newFact) {
-    newFact.addEventListener("click", showRandomFact);
 }
