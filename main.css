@@ -394,7 +394,7 @@ button {
 }
 
 .section-divider {
-    min-height: 78px;
+    min-height: 90px;
     width: 100%;
     padding: 0 1.5%;
     display: flex;
@@ -414,7 +414,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
+    gap: 26px;
 }
 
 .divider-images img {
@@ -448,7 +448,7 @@ button {
 .divider-text > span:not(.divider-star) {
     color: #59438D;
     font-family: 'Jersey 10', monospace;
-    font-size: clamp(1.9rem, 2.5vw, 2rem);
+    font-size: clamp(2.3rem, 3.2vw, 2.6rem);
     line-height: 1.6;
     letter-spacing: 0.04em;
     text-align: center;
@@ -472,8 +472,8 @@ button {
 
 .cosmic-fact {
     position: relative;
-    min-height: 600px;
-    padding: 100px 8%;
+    min-height: 480px;
+    padding: 90px 8%;
     display: grid;
     grid-template-columns: minmax(360px, 0.9fr) minmax(420px, 1.1fr);
     align-items: center;
@@ -598,27 +598,6 @@ button {
     line-height: 1.65;
     font-weight: bold;
     letter-spacing: -0.01em;
-}
-
-.new-fact-button {
-    margin-top: 28px;
-    padding: 12px 20px;
-    border: 1px solid rgba(89,67,141,0.45);
-    background: rgba(89,67,141,0.07);
-    color: #59438D;
-    font-family: 'DotGothic16', monospace;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.25s;
-}
-
-.new-fact-button:hover {
-    color: #24132C;
-    border-color: #59438D;
-    background: rgba(89,67,141,0.16);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 0 rgba(63,28,38,0.3);
 }
 
 .weekly-news {
@@ -807,8 +786,8 @@ footer {
 
     .cosmic-fact {
         grid-template-columns: 1fr;
-        gap: 60px;
-        padding: 75px 6%;
+        gap: 50px;
+        padding: 65px 6%;
     }
 
     .fact-visual-wrap {
@@ -902,19 +881,20 @@ footer {
         margin-top: 20px;
     }
 
+
     .image-caption {
         font-size: 0.75rem;
         max-width: 95%;
     }
 
     .section-divider {
-        min-height: 64px;
+        min-height: 72px;
         gap: 5px;
         padding: 0 1%;
     }
 
     .divider-images {
-        gap: 3px;
+        gap: 7px;
         max-width: 150px;
     }
 
@@ -936,7 +916,7 @@ footer {
     }
 
     .divider-text > span:not(.divider-star) {
-        font-size: 0.62rem;
+        font-size: 0.75rem;
         letter-spacing: 0;
     }
 
@@ -949,14 +929,15 @@ footer {
     }
 
     .cosmic-fact {
-        padding: 65px 6%;
-        gap: 45px;
+        padding: 55px 6%;
+        gap: 40px;
     }
 
     .fact-visual-wrap {
         width: 90vw;
         max-width: 400px;
-    }
+
+}
 
     .fact-content h2 {
         font-size: clamp(0.9rem, 5vw, 1.35rem);
@@ -965,11 +946,6 @@ footer {
 
     .fact-explanation {
         font-size: 1.15rem;
-    }
-
-    .new-fact-button {
-        margin-top: 20px;
-        font-size: 0.95rem;
     }
 
     .weekly-news {
