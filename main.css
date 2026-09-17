@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 html {
@@ -913,6 +915,8 @@ footer {
 
     .divider-text {
         gap: 4px;
+        white-space: normal;
+        text-align: center;
     }
 
     .divider-text > span:not(.divider-star) {
